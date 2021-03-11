@@ -38,6 +38,31 @@ class MenuSeeder extends Seeder
             'title' => 'Kopi Toraja',
             'description' => 'Jenis kopi ini memiliki rasa yang khas karena memiliki sentuhan kayu manis dan kapulaga.',      
             'image' => '/template/img/toraja.jpeg',
+            'harga' => 10],
+            [
+            'title' => 'Americano',
+            'description' => 'kopi ini cocok untuk orang yang tidak terlalu suka kopi espresso yang kental dan pekat.',      
+            'image' => '/template/img/americano.jpeg',
+            'harga' => 15],
+            [
+            'title' => 'Mocha',
+            'description' => 'Keunikan dari jenis minuman kopi ini adalah perpaduan dari cokelat yang dicampur dengan espresso dan susu.',      
+            'image' => '/template/img/mocha.jpg',
+            'harga' => 13],
+            [
+            'title' => 'Affogato',
+            'description' => 'Affogato ini terdiri dari campuran espresso yang kuat dan pahit dengan es krim vanilla yang nikmat.', 
+            'image' => '/template/img/affogato.jpg',     
+            'harga' => 14],
+            [
+            'title' => 'Kopi Kintamani',
+            'description' => 'Ciri khas dari kopi Kintamani, Bali adalah adanya rasa pahit sekaligus bercita rasa jeruk.',      
+            'image' => '/template/img/kintamani.jpg',
+            'harga' => 11],
+            [
+            'title' => 'Kopi Macchiato',
+            'description' => 'Rasio steamed milk dalam minuman ini lebih besar dari espresso, sehingga ada sentuhan milky dan gurih. ',      
+            'image' => '/template/img/macchiato.jpg',
             'harga' => 10]
             ]);
            

@@ -17,7 +17,7 @@ class CreateMenusTable extends Migration
             $table->id();
             $table->string('title',100)->index()->nullable();
             $table->string('image',100)->index()->nullable();
-            $table->string('description',100)->index()->nullable();
+            $table->string('description',255)->index()->nullable();
             $table->integer('harga')->index()->nullable();
             $table->timestamps();
         });

@@ -14,16 +14,62 @@ class CustomerSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('customer')->insert([
+        DB::table('customers')->insert([
             [
-            'image' => '/template/img/cappuccino.jpg',
+            'image' => '/template/img/profile.png',
             'nama' => 'Risky Dwi Ramadhan',
-            'tanggal' => '2021/03/11'],
+            'tanggal' => now(),
+            'komentar' => 'Minuman di sini enak - enak dan berkualitas sekali sesuai dengan harganya'],
             [
-            'image' => '/template/img/espresso.jpg',
-            'nama' => 'Dimas',
-            'tanggal' => now()]
-
+            'image' => '/template/img/profile.png',
+            'nama' => 'Dimas Ilham Rivaldy',
+            'tanggal' => now(),
+            'komentar' => 'Suasananya sangat nyaman sekali dan tempatnya bagus'],
+            [
+            'image' => '/template/img/profile.png',
+            'nama' => 'Khoirudin',
+            'tanggal' => now(),
+            'komentar' => 'Pelayanan disini sangat ramah sekali'],
+            [
+            'image' => '/template/img/profile.png',
+            'nama' => 'Firman Ardiansyah',
+            'tanggal' => now(),
+            'komentar' => 'Suasananya sangat nyaman sekali dan tempatnya bagus'],
+            [
+            'image' => '/template/img/profile.png',
+            'nama' => 'Sandrina',
+            'tanggal' => now(),
+            'komentar' => 'Ini adalah contoh dari komentar. Anda bisa membuat menggirim komenentar untuk toko kami'],
+            [
+            'image' => '/template/img/profile.png',
+            'nama' => 'Siska Apriliani',
+            'tanggal' => now(),
+            'komentar' => 'Suasananya sangat nyaman sekali dan tempatnya bagus'],
+            [
+            'image' => '/template/img/profile.png',
+            'nama' => 'Abdul Rachman',
+            'tanggal' => now(),
+            'komentar' => 'Tidak ada komentar untuk dari saya ini hanya coba-coba'],
+            [
+            'image' => '/template/img/profile.png',
+            'nama' => 'Anton Santoso',
+            'tanggal' => now(),
+            'komentar' => 'Tidak ada komentar untuk dari saya ini hanya coba-coba'],
+            [
+            'image' => '/template/img/profile.png',
+            'nama' => 'Benny Setiawan',
+            'tanggal' => now(),
+            'komentar' => 'Ini adalah contoh dari komentar. Anda bisa membuat menggirim komenentar untuk toko kami'],
+            [
+            'image' => '/template/img/profile.png',
+            'nama' => 'Budiono',
+            'tanggal' => now(),
+            'komentar' => 'Ini adalah contoh dari komentar. Anda bisa membuat menggirim komenentar untuk toko kami'],
+            [
+            'image' => '/template/img/profile.png',
+            'nama' => 'Sugianto Adiwinata',
+            'tanggal' => now(),
+            'komentar' => 'Ini adalah contoh dari komentar. Anda bisa membuat menggirim komenentar untuk toko kami']
         ]);
     }
 }

@@ -3,94 +3,64 @@
 @section('judul')
     Halaman {{$title}}
 @endsection
+    
 @section('content')
 
 <div class="row tm-welcome-content">
-    <h2 class="white-text tm-handwriting-font tm-welcome-header"><img src="{{asset('template')}}/img/header-line.png" alt="Line" class="tm-header-line">&nbsp;Welcome To&nbsp;&nbsp;<img src="{{asset('template')}}/img/header-line.png" alt="Line" class="tm-header-line"></h2>
+    <h2 class="white-text tm-handwriting-font tm-welcome-header"><img src="{{asset('template')}}/img/header-line.png" alt="Line" class="tm-header-line">&nbsp;Our Menus&nbsp;&nbsp;<img src="{{asset('template')}}/img/header-line.png" alt="Line" class="tm-header-line"></h2>
     <h2 class="gold-text tm-welcome-header-2">Cafe House</h2>
-    <p class="gray-text tm-welcome-description">Cafe House template is a mobile-friendly responsive <span class="gold-text">Bootstrap v3.3.5</span> layout by <span class="gold-text">templatemo</span>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-    <a href="#main" class="tm-more-button tm-more-button-welcome">Details</a>      
+    <p class="gray-text tm-welcome-description">Cafe House template is a mobile-friendly responsive <span class="gold-text">Bootstrap v3.3.5 layout</span> by <span class="gold-text">templatemo</span>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+    <a href="#main" class="tm-more-button tm-more-button-welcome">Read More</a>      
   </div>
-  <img src="{{asset('template')}}/img/table-set.png" alt="Table Set" class="tm-table-set img-responsive">             
+  <img src="{{asset('template')}}/img/table-set.png" alt="Table Set" class="tm-table-set img-responsive">  
 </div>      
 </section>
 <div class="tm-main-section light-gray-bg">
-    <div class="container" id="main">
-        
-        <div class="col-md-6">
-            <!-- USERS LIST -->
-            <div class="box box-danger">
-              <div class="box-header with-border">
-                <h3 class="box-title">Latest Members</h3>
-
-                <div class="box-tools pull-right">
-                  <span class="label label-danger">8 New Members</span>
-                  <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
-                  </button>
-                </div>
-              </div>
-              <!-- /.box-header -->
-                @foreach ($data as $item)
-              <div class="box-body no-padding">
-                <ul class="users-list clearfix">
-
-                  <li>
-                    <img src="{{$item->image}}" alt="User Image">
-                    <a class="users-list-name" href="#">{{$item->nama}}</a>
-                    <span class="users-list-date">{{$item->tanggal}}</span>
-                  </li>  
-
-                </ul>
-                <!-- /.users-list -->
-              </div>
-                @endforeach
-              <!-- /.box-body -->
-              <div class="box-footer text-center">
-                <a href="javascript:void(0)" class="uppercase">View All Users</a>
-              </div>
-              <!-- /.box-footer -->
-            </div>
-            <!--/.box -->
-          </div>
-              {{-- <!-- USERS LIST -->
-              <div class="box box-danger">
-                <div class="box-header with-border">
-                  <h3 class="box-title">Latest Members</h3>
-
-                  <div class="box-tools pull-right">
-                    <span class="label label-danger">8 New Members</span>
-                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                    </button>
-                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
-                    </button>
-                  </div>
-                </div>
-                <!-- /.box-header -->
-                @foreach ($data as $item)
-                <div class="box-body no-padding">
-                  <ul class="users-list clearfix">
-                      
-                    <li>
-                      <img src="{{$item->image}}" alt="User Image">
-                      <a class="users-list-name" href="#">{{$item->nama}}</a>
-                      <span class="users-list-date">{{$item->tanggal}}</span>
-                    </li>  
-
-                  </ul>
-                  <!-- /.users-list -->
-                </div>                  
-                @endforeach
-                <!-- /.box-body -->
-                <div class="box-footer text-center">
-                  <a href="javascript:void(0)" class="uppercase">View All Users</a>
-                </div>
-                <!-- /.box-footer -->
-              </div>
-              <!--/.box --> --}}
-      </section>
+<div class="container" id="main">    
+  {{-- <section class="tm-section row">
+    <div class="col-lg-12 tm-section-header-container margin-bottom-30">
+      <h2 class="tm-section-header gold-text tm-handwriting-font"><img src="{{asset('template')}}/img/logo.png" alt="Logo" class="tm-site-logo"> Custmer</h2>
+      <div class="tm-hr-container"><hr class="tm-hr"></div>
     </div>
-  </div> 
-  
+    <div>
+      <div class="tm-menu-product-content col-lg-9 col-md-9"> 
+        <!-- menu content -->
+        @foreach ($data as $item)
+          <div class="tm-product">
+            <img src="{{$item->image}}" alt="Product">
+            <div class="tm-product-text">
+              <h3 class="tm-product-title">{{$item->nama}}</h3>
+              <h5 class="tm-product-title">{{$item->tanggal}}</h5>
+              <p class="tm-product-description">{{$item->Komentar}}</p>
+            </div>   
+            
+          </div>
+        @endforeach
+      </div>
+    </div>          
+  </section> --}}
+
+  <section class="tm-section tm-section-margin-bottom-0 row">
+    <div class="col-lg-12 tm-section-header-container">
+      <h2 class="tm-section-header gold-text tm-handwriting-font"><img src="{{asset('template')}}/img/logo.png" alt="Logo" class="tm-site-logo"> Customer</h2>
+      <div class="tm-hr-container"><hr class="tm-hr"></div>
+    </div>
+    <div class="col-lg-12 tm-popular-items-container">
+
+      @foreach ($data as $item)
+      <div class="tm-popular-item">
+        <img src="{{$item->image}}" alt="Popular" class="tm-popular-item-img">
+        <div class="tm-popular-item-description">
+          <h4 class="tm-handwriting-font tm-popular-item-title">{{$item->nama}}</h4>
+            <hr class="tm-popular-item-hr">
+          <p>{{$item->komentar}}</p>
+          
+        </div>              
+      </div>      
+      @endforeach
+      
+    </div>          
+  </section>
+</div>
+</div> 
 @endsection
