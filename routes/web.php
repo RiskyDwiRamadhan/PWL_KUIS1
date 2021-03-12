@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PegawaiController;
+use App\Http\Controllers\SupplierController;
+
 // use App\Http\Controllers\MenuController;
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +22,8 @@ Route::get('/contact', [HomeController::class, 'contact']);
 Route::get('/menu', [HomeController::class, 'menu']);
 Route::get('/today', [HomeController::class, 'today']);
 Route::get('/customer', [HomeController::class, 'customer']);
+Route::get('/pegawai', [PegawaiController::class, 'index']);
+route::get('/supplier', [SupplierController::class, 'index']);
 
 
 // Route::get('/', [MenuController::class, 'menu']);
