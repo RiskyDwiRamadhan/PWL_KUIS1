@@ -8,7 +8,7 @@
 
     <div class="row tm-welcome-content">
         <h2 class="white-text tm-handwriting-font tm-welcome-header"><img src="{{ asset('template') }}/img/header-line.png"
-                alt="Line" class="tm-header-line">&nbsp;Our Menus&nbsp;&nbsp;<img
+                alt="Line" class="tm-header-line">&nbsp;Pegawai&nbsp;&nbsp;<img
                 src="{{ asset('template') }}/img/header-line.png" alt="Line" class="tm-header-line"></h2>
         <h2 class="gold-text tm-welcome-header-2">Cafe House</h2>
         <p class="gray-text tm-welcome-description">Cafe House template is a mobile-friendly responsive <span
@@ -23,33 +23,11 @@
     </section>
     <div class="tm-main-section light-gray-bg">
         <div class="container" id="main">
-            {{-- <section class="tm-section row">
-    <div class="col-lg-12 tm-section-header-container margin-bottom-30">
-      <h2 class="tm-section-header gold-text tm-handwriting-font"><img src="{{asset('template')}}/img/logo.png" alt="Logo" class="tm-site-logo"> Custmer</h2>
-      <div class="tm-hr-container"><hr class="tm-hr"></div>
-    </div>
-    <div>
-      <div class="tm-menu-product-content col-lg-9 col-md-9"> 
-        <!-- menu content -->
-        @foreach ($data as $item)
-          <div class="tm-product">
-            <img src="{{$item->image}}" alt="Product">
-            <div class="tm-product-text">
-              <h3 class="tm-product-title">{{$item->nama}}</h3>
-              <h5 class="tm-product-title">{{$item->tanggal}}</h5>
-              <p class="tm-product-description">{{$item->Komentar}}</p>
-            </div>   
-            
-          </div>
-        @endforeach
-      </div>
-    </div>          
-  </section> --}}
 
             <section class="tm-section tm-section-margin-bottom-0 row">
                 <div class="col-lg-12 tm-section-header-container">
                     <h2 class="tm-section-header gold-text tm-handwriting-font"><img
-                            src="{{ asset('template') }}/img/logo.png" alt="Logo" class="tm-site-logo"> Customer</h2>
+                            src="{{ asset('template') }}/img/logo.png" alt="Logo" class="tm-site-logo"> Pegawai</h2>
                     <div class="tm-hr-container">
                         <hr class="tm-hr">
                     </div>
