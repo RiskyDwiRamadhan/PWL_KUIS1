@@ -39,7 +39,7 @@ class CustomerSeeder extends Seeder
             'image' => '/template/img/profile.png',
             'nama' => 'Sandrina',
             'tanggal' => now(),
-            'komentar' => 'Ini adalah contoh dari komentar. Anda bisa membuat menggirim komenentar untuk toko kami'],
+            'komentar' => 'Suasananya sangat nyaman sekali dan tempatnya bagus'],
             [
             'image' => '/template/img/profile.png',
             'nama' => 'Siska Apriliani',
@@ -49,27 +49,22 @@ class CustomerSeeder extends Seeder
             'image' => '/template/img/profile.png',
             'nama' => 'Abdul Rachman',
             'tanggal' => now(),
-            'komentar' => 'Tidak ada komentar untuk dari saya ini hanya coba-coba'],
+            'komentar' => 'Minuman di sini enak - enak dan berkualitas sekali sesuai dengan harganya'],
             [
             'image' => '/template/img/profile.png',
             'nama' => 'Anton Santoso',
             'tanggal' => now(),
-            'komentar' => 'Tidak ada komentar untuk dari saya ini hanya coba-coba'],
+            'komentar' => 'Minuman di sini enak - enak dan berkualitas sekali sesuai dengan harganya'],
             [
             'image' => '/template/img/profile.png',
             'nama' => 'Benny Setiawan',
             'tanggal' => now(),
-            'komentar' => 'Ini adalah contoh dari komentar. Anda bisa membuat menggirim komenentar untuk toko kami'],
+            'komentar' => 'Suasananya sangat nyaman sekali dan tempatnya bagus'],
             [
             'image' => '/template/img/profile.png',
             'nama' => 'Budiono',
             'tanggal' => now(),
-            'komentar' => 'Ini adalah contoh dari komentar. Anda bisa membuat menggirim komenentar untuk toko kami'],
-            [
-            'image' => '/template/img/profile.png',
-            'nama' => 'Sugianto Adiwinata',
-            'tanggal' => now(),
-            'komentar' => 'Ini adalah contoh dari komentar. Anda bisa membuat menggirim komenentar untuk toko kami']
+            'komentar' => 'Suasananya sangat nyaman sekali dan tempatnya bagus']
         ]);
     }
 }
