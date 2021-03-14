@@ -17,7 +17,7 @@ class HomeController extends Controller
     }
     
     public function menu(){
-        $menu = Menu::all();
+        $menu = Menu::index();
         return view ('menu', ['data' => $menu], ['title' => 'Menu Cofe']);
     }
     
@@ -26,7 +26,7 @@ class HomeController extends Controller
     }
     
     public function customer(){
-        $customer = Customer::all();
+        $customer = Customer::index();
         return view('customer', ['data' => $customer], ['title' => 'Customer']);
     }
 }

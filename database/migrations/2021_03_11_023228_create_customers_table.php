@@ -19,6 +19,7 @@ class CreateCustomersTable extends Migration
             $table->string('nama',100)->index()->nullable();
             $table->date('tanggal')->index()->nullable();
             $table->string('komentar',255)->index()->nullable();
+            $table->boolean('draft')->default(false);
             $table->timestamps();
         });
     }

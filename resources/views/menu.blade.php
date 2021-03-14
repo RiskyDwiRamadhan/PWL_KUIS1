@@ -71,6 +71,10 @@
             </div>
           </div>
         @endforeach
+
+      <div class="d-flex">
+          {{ $data->links() }}
+      </div>
       </div>
     </div>          
   </section>
